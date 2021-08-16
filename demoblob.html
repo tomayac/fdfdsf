@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://10.108.76.238:8080/clip5/demoblob.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Clipboard API</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/clipboardblob.css">
+<meta http-equiv="content-security-policy" content="style-src 'self'; font-src 'self'"/>
+<script type="module" src="./js/clipboardblob.js" defer="defer"></script>
+
+</head><body>
+
+  <h1>Clipboard API </h1>
+
+  <h2>Copy</h2>
+
+  <p>Some browsers support image content copying:</p>
+
+  <img id="clipboardicon" src="images/clipboard.png" alt="clipboard icon">
+
+  <button data-copyblob="#clipboardicon" data-done="image copied">copy image</button>
+
+
+  <h2>Paste</h2>
+
+  <div id="imagelist"></div>
+
+  <button data-pasteblob="#imagelist">paste image</button>
+
+  <h2>Download Clipboard Image</h2>
+
+  <button data-downloadblob>download clipboard png image</button>
+
+
+
+</body></html>
